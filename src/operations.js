@@ -9,11 +9,7 @@ module.exports = {
     },
 
     div: function (a, b) {
-        if (b != 0){
-            return a/b;
-        }else{
-            return 'Error. Cannot divide by zero!'
-        }
+        return a/b;
     },
 
     prod: function (a, b) {
