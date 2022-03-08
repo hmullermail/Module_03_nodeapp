@@ -16,6 +16,3 @@ test("5 * 7 must be equal to 35", ()=> {
     expect(operation.prod(5, 7)).toBe(35);
 });
 
-test("5 / 0 is not a valid operation", ()=> {
-    expect(operation.div(5, 0)).toBe('Error. Cannot divide by zero!');
-});
